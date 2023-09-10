@@ -1,0 +1,37 @@
+.sidenav-container {
+  height: 100%;
+}
+
+.sidenav {
+  width: 15vw;
+}
+
+.sidenav .mat-toolbar {
+  background: inherit;
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+mat-icon {
+  line-height: 1rem; // 調整這個值
+  vertical-align: middle; // 調整這個值
+}
+
+.toolbar-flex {
+  display: flex;
+  align-items: center;
+}
+
+.logo-background {
+  background-image: url("../../../assets/logo.png");
+  background-position: -14%; /* 定位到图片的右侧 */
+  background-size: cover; /* 或者使用 background-size: auto; 根据需要 */
+  background-repeat: no-repeat;
+  height: 2.5rem; /* 设置高度 */
+  width: 4.4rem; /* 设置宽度 */
+  margin: 0.5rem 0.5rem 0 0;
+}
