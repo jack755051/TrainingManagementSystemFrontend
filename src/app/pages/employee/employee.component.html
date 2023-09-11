@@ -1,1 +1,34 @@
-<p>employee works!</p>
+<div class="container">
+  <!-- title -->
+  <div class="title">
+    <h3>員工專區</h3>
+  </div>
+
+  <!-- content -->
+  <div class="learn-data">
+    <!-- table -->
+    <table border="1">
+      <tr>
+        <th colspan="10">學習數據</th>
+      </tr>
+      <tr>
+        <td rowspan="3" colspan="2"></td>
+        <td colspan="2">正在進行</td>
+        <td rowspan="2" colspan="2">已通過課程</td>
+        <td rowspan="2">課程總數</td>
+        <td rowspan="2">通過率</td>
+      </tr>
+      <tr>
+        <td>已通過</td>
+        <td>科目數</td>
+      </tr>
+      <tr>
+        <td>{{ learnData.InProgressAndDone }}</td>
+        <td>{{ learnData.OngoingCourses }}</td>
+        <td colspan="2">{{ learnData.CompletedCourses }}</td>
+        <td>{{ learnData.TotalCourses }}</td>
+        <td>{{ learnData.PassRate }}</td>
+      </tr>
+    </table>
+  </div>
+</div>

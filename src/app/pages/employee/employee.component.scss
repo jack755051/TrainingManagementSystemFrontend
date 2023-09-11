@@ -1,0 +1,13 @@
+.learn-data > table {
+  border: 0.1rem solid #000;
+}
+
+td,
+th,
+.learn-data > table th,
+.learn-data > table td {
+  width: 10vw;
+  height: 10vh;
+  text-align: center;
+  border: 0.1rem solid #000; /* 或者使用 1px solid black，取決於您希望哪個樣式具有優先級 */
+}
